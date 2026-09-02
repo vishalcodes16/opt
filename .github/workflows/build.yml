@@ -22,14 +22,20 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
+      - name: Clear NuGet cache
+        run: dotnet nuget locals all --clear
+
       - name: Restore
-        run: dotnet restore VishalXOpt/VishalXOpt.sln
+        run: dotnet restore VishalXOpt/VishalXOpt.sln --force
+
+      - name: Clean
+        run: dotnet clean VishalXOpt/VishalXOpt.sln -c Release
 
       - name: Build
         run: dotnet build VishalXOpt/VishalXOpt.sln -c Release --no-restore
 
       - name: Test
-        run: dotnet test VishalXOpt/VishalXOpt.sln -c Release --no-build
+        run: dotnet test VishalXOpt/VishalXOpt.sln -c Release
 
       - name: Publish Windows x64
         run: >
