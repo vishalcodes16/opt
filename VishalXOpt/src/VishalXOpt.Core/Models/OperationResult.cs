@@ -1,0 +1,2 @@
+namespace VishalXOpt.Core.Models;
+public sealed record OperationResult(bool Success,string Message,bool RestartRequired=false){ public static OperationResult Ok(string message,bool restart=false)=>new(true,message,restart); public static OperationResult Fail(string message)=>new(false,message); }

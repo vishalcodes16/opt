@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.GameReady; public sealed class GameReadyModule { public string Name=>"GameReady"; public string Status=>"Ready for integration; operations are safety-gated."; }

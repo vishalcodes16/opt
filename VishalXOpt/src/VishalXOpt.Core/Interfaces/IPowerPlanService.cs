@@ -1,0 +1,1 @@
+namespace VishalXOpt.Core.Interfaces; public interface IPowerPlanService { string GetActivePlan(); Task<bool> SetPlanAsync(string plan,CancellationToken token=default); }

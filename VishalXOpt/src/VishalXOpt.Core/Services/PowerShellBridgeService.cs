@@ -1,0 +1,1 @@
+namespace VishalXOpt.Core.Services; public sealed class PowerShellBridgeService { public string ExplainRemoteExecution()=>"Remote PowerShell execution is disabled by default. The command is shown for inspection only until the user explicitly confirms."; }

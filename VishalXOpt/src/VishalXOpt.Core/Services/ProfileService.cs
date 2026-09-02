@@ -1,0 +1,1 @@
+using System.Text.Json; namespace VishalXOpt.Core.Services; public sealed class ProfileService { public async Task<T?> LoadAsync<T>(string path,CancellationToken token=default)=>File.Exists(path)?JsonSerializer.Deserialize<T>(await File.ReadAllTextAsync(path,token)):default; }

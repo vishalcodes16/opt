@@ -1,0 +1,1 @@
+using VishalXOpt.Core.Models; namespace VishalXOpt.Core.Interfaces; public interface IHardwareMonitorService { IReadOnlyList<(string Name,float Value,string Unit)> GetSensors(); }

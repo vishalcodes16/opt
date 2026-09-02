@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Autoruns; public sealed class AutorunsModule { public string Name=>"Autoruns"; public string Status=>"Scaffolded for safety-first integration"; }

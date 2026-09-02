@@ -1,0 +1,1 @@
+namespace VishalXOpt.Core.Security; public static class ValidatedArguments { public static string RequireSafeToken(string input){ if(string.IsNullOrWhiteSpace(input)||input.Any(char.IsControl)) throw new ArgumentException("Invalid argument.",nameof(input)); return input; } }

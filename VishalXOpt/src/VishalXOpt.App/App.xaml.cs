@@ -1,0 +1,1 @@
+using System.Windows; namespace VishalXOpt.App; public partial class App:Application{ }

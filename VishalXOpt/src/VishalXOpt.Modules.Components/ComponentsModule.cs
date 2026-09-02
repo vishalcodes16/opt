@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Components; public sealed class ComponentsModule { public string Name=>"Components"; public string Status=>"Scaffolded for safety-first integration"; }

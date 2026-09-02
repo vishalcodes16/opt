@@ -1,0 +1,1 @@
+namespace VishalXOpt.Core.Helpers; public static class PathHelper { public static string AppDataRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData),"VishalXOpt"); }

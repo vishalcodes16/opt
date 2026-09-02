@@ -1,0 +1,1 @@
+using VishalXOpt.Core.Models; namespace VishalXOpt.Core.Interfaces; public interface IBackupRestoreService { Task SaveAsync(BackupRecord record,CancellationToken token=default); Task<IReadOnlyList<BackupRecord>> GetAsync(CancellationToken token=default); }

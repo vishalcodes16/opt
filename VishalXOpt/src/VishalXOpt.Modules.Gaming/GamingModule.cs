@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Gaming; public sealed class GamingModule { public string Name=>"Gaming"; public string Status=>"Scaffolded for safety-first integration"; }

@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Cleanup; public sealed class CleanupModule { public string Name=>"Cleanup"; public string Status=>"Scaffolded for safety-first integration"; }

@@ -1,0 +1,1 @@
+namespace VishalXOpt.Core.Interfaces; public interface ILoggingService { Task LogAsync(string level,string module,string operation,string message,CancellationToken token=default); }

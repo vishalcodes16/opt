@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Debloat; public sealed class DebloatModule { public string Name=>"Debloat"; public string Status=>"Scaffolded for safety-first integration"; }

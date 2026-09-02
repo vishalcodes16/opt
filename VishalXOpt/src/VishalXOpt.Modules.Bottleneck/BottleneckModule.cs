@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Bottleneck; public sealed class BottleneckModule { public string Name=>"Bottleneck"; public string Status=>"Ready for integration; operations are safety-gated."; }

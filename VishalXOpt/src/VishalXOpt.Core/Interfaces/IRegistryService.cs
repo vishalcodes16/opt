@@ -1,0 +1,1 @@
+using Microsoft.Win32; namespace VishalXOpt.Core.Interfaces; public interface IRegistryService { object? Read(RegistryHive hive,string path,string valueName); void Write(RegistryHive hive,string path,string valueName,object value); void DeleteValue(RegistryHive hive,string path,string valueName); }

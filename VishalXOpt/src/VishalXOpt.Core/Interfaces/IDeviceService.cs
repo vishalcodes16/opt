@@ -1,0 +1,1 @@
+using VishalXOpt.Core.Models; namespace VishalXOpt.Core.Interfaces; public interface IDeviceService { IReadOnlyList<DeviceInfo> GetDevices(); }

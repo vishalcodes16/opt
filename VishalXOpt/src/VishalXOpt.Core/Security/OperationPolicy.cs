@@ -1,0 +1,1 @@
+namespace VishalXOpt.Core.Security; public static class OperationPolicy { public static bool RequiresConfirmation(string risk)=>risk.Equals("HIGH RISK",StringComparison.OrdinalIgnoreCase)||risk.Equals("ADVANCED",StringComparison.OrdinalIgnoreCase); public static string SafetySummary=>"Detect current state; validate; backup; preview; confirm; apply; verify; log; undo."; }
