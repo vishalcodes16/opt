@@ -260,10 +260,17 @@ public partial class MainWindow : Window
 
             row.Children.Add(details);
 
+            var actions = new StackPanel { Orientation = Orientation.Horizontal };
             var preview = B("Preview");
             preview.Click += (_, _) => PreviewProfile(profile);
-            Grid.SetColumn(preview, 1);
-            row.Children.Add(preview);
+            actions.Children.Add(preview);
+
+            var apply = B("Apply");
+            apply.Margin = new Thickness(8, 0, 0, 0);
+            apply.Click += (_, _) => vm.ApplyProfileCommand.Execute(profile);
+            actions.Children.Add(apply);
+            Grid.SetColumn(actions, 1);
+            row.Children.Add(actions);
 
             stack.Children.Add(Card(row));
         }
@@ -287,13 +294,15 @@ public partial class MainWindow : Window
 
     private void PreviewProfile(string profile)
     {
-        var message =
-            $"{profile}\n\n" +
-            $"Current power plan: {vm.PowerPlan}\n" +
-            $"CPU: {vm.CpuUsagePercent:0}%\n" +
-            $"RAM: {vm.RamUsedPercent:0}%\n" +
-            $"Disk: {vm.DiskUsagePercent:0}%\n\n" +
-            "No guaranteed FPS increase is claimed.";
+        var preview = AppServices.Optimizer.Preview(profile);
+        var operations = preview.Operations.Count == 0
+            ? "No system settings will be changed."
+            : string.Join("\n", preview.Operations.Select(x =>
+                $"• {x.Name}: {x.CurrentValue} → {x.RecommendedValue}" +
+                (x.RequiresAdmin ? " (administrator required)" : "") +
+                (x.RequiresRestart ? " (restart required)" : "")));
+        var message = $"{preview.Profile}\n\n{preview.Description}\n\n{operations}\n\n" +
+                      "Successful changes are backed up and verified. No guaranteed FPS increase is claimed.";
 
         MessageBox.Show(
             message,

@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\VishalXOpt.Core\VishalXOpt.Core.csproj" />
+    <ProjectReference Include="..\..\src\VishalXOpt.Modules.Optimizer\VishalXOpt.Modules.Optimizer.csproj" />
   </ItemGroup>
 
 </Project>
