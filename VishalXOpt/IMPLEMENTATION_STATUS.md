@@ -22,6 +22,7 @@ This build moves the project beyond UI placeholders and wires the main modules t
 - Settings persistence.
 - Structured logs and JSON backups under the user LocalAppData/CommonAppData application folders.
 - Before/after style system measurements for CPU/RAM/disk/network.
+- Optimizer profiles with explicit preview, user confirmation, backup/verification through the tweak service, and privilege-aware skipping of administrator-only operations.
 
 ## Hardware/vendor-dependent
 - Vendor-specific overclock/undervolt controls require a supported vendor API; the project contains the monitoring/profile surface but does not invent vendor control APIs.
