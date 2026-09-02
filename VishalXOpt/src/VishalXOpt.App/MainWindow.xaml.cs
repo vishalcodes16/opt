@@ -318,8 +318,33 @@ public partial class MainWindow : Window
         var root = new ScrollViewer();
         var stack = new StackPanel();
 
+        var hero = new Grid { Height = 230, Margin = new Thickness(6) };
+        hero.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1.35, GridUnitType.Star) });
+        hero.ColumnDefinitions.Add(new ColumnDefinition());
+        var heroText = new StackPanel { VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(22) };
+        heroText.Children.Add(new TextBlock { Text = "GAMING PERFORMANCE LAB", Foreground = blue, FontWeight = FontWeights.Bold, FontSize = 13 });
+        heroText.Children.Add(H("Tune. Measure. Verify.", 30));
+        heroText.Children.Add(T("Apply only supported Windows settings, then use actual frame-time telemetry to compare before and after. No FPS increase is guaranteed."));
+        var processName = new TextBox
+        {
+            Width = 250,
+            Height = 32,
+            Margin = new Thickness(4),
+            ToolTip = "Game process name, for example: game.exe"
+        };
+        processName.SetValue(TextBox.TextProperty, "game.exe");
+        heroText.Children.Add(processName);
+        var capture = B("Capture Frame Time");
+        capture.Click += (_, _) => vm.CaptureFpsCommand.Execute(processName.Text.Trim());
+        heroText.Children.Add(capture);
+        hero.Children.Add(heroText);
+        var visual = new SystemCore3D { Margin = new Thickness(12) };
+        Grid.SetColumn(visual, 1);
+        hero.Children.Add(visual);
+        stack.Children.Add(Card(hero));
+
         stack.Children.Add(H("Gaming / FPS", 26));
-        stack.Children.Add(T("Gaming controls inspect the actual Windows state and expose supported settings. Measure before and after changes."));
+        stack.Children.Add(T("Controls are preview-first and hardware-aware. Apply a setting, then measure frame time or system telemetry to validate its effect."));
 
         var grid = new UniformGrid { Columns = 2 };
 
