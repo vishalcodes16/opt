@@ -1,0 +1,156 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.App", "src\\VishalXOpt.App\\VishalXOpt.App.csproj", "{11111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Core", "src\\VishalXOpt.Core\\VishalXOpt.Core.csproj", "{22222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.UI", "src\\VishalXOpt.UI\\VishalXOpt.UI.csproj", "{33333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Optimizer", "src\\VishalXOpt.Modules.Optimizer\\VishalXOpt.Modules.Optimizer.csproj", "{00000004-AAAA-AAAA-AAAA-000000000004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.WinUtil", "src\\VishalXOpt.Modules.WinUtil\\VishalXOpt.Modules.WinUtil.csproj", "{00000005-AAAA-AAAA-AAAA-000000000005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Tweaker", "src\\VishalXOpt.Modules.Tweaker\\VishalXOpt.Modules.Tweaker.csproj", "{00000006-AAAA-AAAA-AAAA-000000000006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Gaming", "src\\VishalXOpt.Modules.Gaming\\VishalXOpt.Modules.Gaming.csproj", "{00000007-AAAA-AAAA-AAAA-000000000007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.PowerPlan", "src\\VishalXOpt.Modules.PowerPlan\\VishalXOpt.Modules.PowerPlan.csproj", "{00000008-AAAA-AAAA-AAAA-000000000008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Debloat", "src\\VishalXOpt.Modules.Debloat\\VishalXOpt.Modules.Debloat.csproj", "{00000009-AAAA-AAAA-AAAA-000000000009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Cleanup", "src\\VishalXOpt.Modules.Cleanup\\VishalXOpt.Modules.Cleanup.csproj", "{0000000A-AAAA-AAAA-AAAA-00000000000A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Privacy", "src\\VishalXOpt.Modules.Privacy\\VishalXOpt.Modules.Privacy.csproj", "{0000000B-AAAA-AAAA-AAAA-00000000000B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Autoruns", "src\\VishalXOpt.Modules.Autoruns\\VishalXOpt.Modules.Autoruns.csproj", "{0000000C-AAAA-AAAA-AAAA-00000000000C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Interrupts", "src\\VishalXOpt.Modules.Interrupts\\VishalXOpt.Modules.Interrupts.csproj", "{0000000D-AAAA-AAAA-AAAA-00000000000D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Devices", "src\\VishalXOpt.Modules.Devices\\VishalXOpt.Modules.Devices.csproj", "{0000000E-AAAA-AAAA-AAAA-00000000000E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Network", "src\\VishalXOpt.Modules.Network\\VishalXOpt.Modules.Network.csproj", "{0000000F-AAAA-AAAA-AAAA-00000000000F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Tasks", "src\\VishalXOpt.Modules.Tasks\\VishalXOpt.Modules.Tasks.csproj", "{00000010-AAAA-AAAA-AAAA-000000000010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Components", "src\\VishalXOpt.Modules.Components\\VishalXOpt.Modules.Components.csproj", "{00000011-AAAA-AAAA-AAAA-000000000011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.MsiUtility", "src\\VishalXOpt.Modules.MsiUtility\\VishalXOpt.Modules.MsiUtility.csproj", "{00000012-AAAA-AAAA-AAAA-000000000012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Process", "src\\VishalXOpt.Modules.Process\\VishalXOpt.Modules.Process.csproj", "{00000013-AAAA-AAAA-AAAA-000000000013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Latency", "src\\VishalXOpt.Modules.Latency\\VishalXOpt.Modules.Latency.csproj", "{00000014-AAAA-AAAA-AAAA-000000000014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.GameReady", "src\\VishalXOpt.Modules.GameReady\\VishalXOpt.Modules.GameReady.csproj", "{00000015-AAAA-AAAA-AAAA-000000000015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Bottleneck", "src\\VishalXOpt.Modules.Bottleneck\\VishalXOpt.Modules.Bottleneck.csproj", "{00000016-AAAA-AAAA-AAAA-000000000016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Core.Tests", "tests\\VishalXOpt.Core.Tests\\VishalXOpt.Core.Tests.csproj", "{E1000000-AAAA-AAAA-AAAA-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VishalXOpt.Modules.Tests", "tests\\VishalXOpt.Modules.Tests\\VishalXOpt.Modules.Tests.csproj", "{E2000000-AAAA-AAAA-AAAA-000000000002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11111111-1111-1111-1111-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11111111-1111-1111-1111-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11111111-1111-1111-1111-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11111111-1111-1111-1111-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22222222-2222-2222-2222-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22222222-2222-2222-2222-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22222222-2222-2222-2222-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22222222-2222-2222-2222-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33333333-3333-3333-3333-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33333333-3333-3333-3333-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33333333-3333-3333-3333-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33333333-3333-3333-3333-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000004-AAAA-AAAA-AAAA-000000000004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000004-AAAA-AAAA-AAAA-000000000004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000004-AAAA-AAAA-AAAA-000000000004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000004-AAAA-AAAA-AAAA-000000000004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000005-AAAA-AAAA-AAAA-000000000005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000005-AAAA-AAAA-AAAA-000000000005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000005-AAAA-AAAA-AAAA-000000000005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000005-AAAA-AAAA-AAAA-000000000005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000006-AAAA-AAAA-AAAA-000000000006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000006-AAAA-AAAA-AAAA-000000000006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000006-AAAA-AAAA-AAAA-000000000006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000006-AAAA-AAAA-AAAA-000000000006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000007-AAAA-AAAA-AAAA-000000000007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000007-AAAA-AAAA-AAAA-000000000007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000007-AAAA-AAAA-AAAA-000000000007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000007-AAAA-AAAA-AAAA-000000000007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000008-AAAA-AAAA-AAAA-000000000008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000008-AAAA-AAAA-AAAA-000000000008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000008-AAAA-AAAA-AAAA-000000000008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000008-AAAA-AAAA-AAAA-000000000008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000009-AAAA-AAAA-AAAA-000000000009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000009-AAAA-AAAA-AAAA-000000000009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000009-AAAA-AAAA-AAAA-000000000009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000009-AAAA-AAAA-AAAA-000000000009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000000A-AAAA-AAAA-AAAA-00000000000A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000000A-AAAA-AAAA-AAAA-00000000000A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000000A-AAAA-AAAA-AAAA-00000000000A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000000A-AAAA-AAAA-AAAA-00000000000A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000000B-AAAA-AAAA-AAAA-00000000000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000000B-AAAA-AAAA-AAAA-00000000000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000000B-AAAA-AAAA-AAAA-00000000000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000000B-AAAA-AAAA-AAAA-00000000000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000000C-AAAA-AAAA-AAAA-00000000000C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000000C-AAAA-AAAA-AAAA-00000000000C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000000C-AAAA-AAAA-AAAA-00000000000C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000000C-AAAA-AAAA-AAAA-00000000000C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000000D-AAAA-AAAA-AAAA-00000000000D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000000D-AAAA-AAAA-AAAA-00000000000D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000000D-AAAA-AAAA-AAAA-00000000000D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000000D-AAAA-AAAA-AAAA-00000000000D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000000E-AAAA-AAAA-AAAA-00000000000E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000000E-AAAA-AAAA-AAAA-00000000000E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000000E-AAAA-AAAA-AAAA-00000000000E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000000E-AAAA-AAAA-AAAA-00000000000E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000000F-AAAA-AAAA-AAAA-00000000000F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000000F-AAAA-AAAA-AAAA-00000000000F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000000F-AAAA-AAAA-AAAA-00000000000F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000000F-AAAA-AAAA-AAAA-00000000000F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000010-AAAA-AAAA-AAAA-000000000010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000010-AAAA-AAAA-AAAA-000000000010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000010-AAAA-AAAA-AAAA-000000000010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000010-AAAA-AAAA-AAAA-000000000010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000011-AAAA-AAAA-AAAA-000000000011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000011-AAAA-AAAA-AAAA-000000000011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000011-AAAA-AAAA-AAAA-000000000011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000011-AAAA-AAAA-AAAA-000000000011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000012-AAAA-AAAA-AAAA-000000000012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000012-AAAA-AAAA-AAAA-000000000012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000012-AAAA-AAAA-AAAA-000000000012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000012-AAAA-AAAA-AAAA-000000000012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000013-AAAA-AAAA-AAAA-000000000013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000013-AAAA-AAAA-AAAA-000000000013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000013-AAAA-AAAA-AAAA-000000000013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000013-AAAA-AAAA-AAAA-000000000013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000014-AAAA-AAAA-AAAA-000000000014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000014-AAAA-AAAA-AAAA-000000000014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000014-AAAA-AAAA-AAAA-000000000014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000014-AAAA-AAAA-AAAA-000000000014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000015-AAAA-AAAA-AAAA-000000000015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000015-AAAA-AAAA-AAAA-000000000015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000015-AAAA-AAAA-AAAA-000000000015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000015-AAAA-AAAA-AAAA-000000000015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000016-AAAA-AAAA-AAAA-000000000016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000016-AAAA-AAAA-AAAA-000000000016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000016-AAAA-AAAA-AAAA-000000000016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000016-AAAA-AAAA-AAAA-000000000016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1000000-AAAA-AAAA-AAAA-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1000000-AAAA-AAAA-AAAA-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1000000-AAAA-AAAA-AAAA-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1000000-AAAA-AAAA-AAAA-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2000000-AAAA-AAAA-AAAA-000000000002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2000000-AAAA-AAAA-AAAA-000000000002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2000000-AAAA-AAAA-AAAA-000000000002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2000000-AAAA-AAAA-AAAA-000000000002}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

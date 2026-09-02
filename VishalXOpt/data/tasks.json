@@ -1,0 +1,12 @@
+[
+  {
+    "id": "analysis",
+    "name": "Analysis tasks",
+    "action": "Inspect / Disable with confirmation"
+  },
+  {
+    "id": "cleanup",
+    "name": "Cleanup tasks",
+    "action": "Inspect / Restore Default"
+  }
+]

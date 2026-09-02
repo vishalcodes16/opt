@@ -1,0 +1,14 @@
+[
+  {
+    "id": "privacy.location",
+    "name": "Location permissions",
+    "description": "Review Windows app permission categories.",
+    "risk": "SAFE"
+  },
+  {
+    "id": "privacy.telemetry",
+    "name": "Telemetry review",
+    "description": "Review telemetry-related settings with current-state detection.",
+    "risk": "MODERATE"
+  }
+]

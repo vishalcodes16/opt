@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gaming.maximum",
+    "name": "Gaming / FPS Maximum",
+    "warning": "Results vary by PC; measure before and after.",
+    "items": [
+      "Game Mode",
+      "Supported HAGS state",
+      "Visual effects",
+      "Startup reduction",
+      "Selected network options"
+    ]
+  }
+]

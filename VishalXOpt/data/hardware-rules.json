@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Affinity",
+    "rule": "Generate from Environment.ProcessorCount"
+  }
+]

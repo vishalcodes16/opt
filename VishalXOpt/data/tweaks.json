@@ -1,0 +1,20 @@
+[
+  {
+    "id": "input.mouse-acceleration",
+    "name": "Mouse acceleration",
+    "category": "Basic",
+    "description": "Expose the current Windows pointer acceleration setting for review before modification.",
+    "risk": "MODERATE",
+    "requiresAdmin": false,
+    "requiresRestart": false
+  },
+  {
+    "id": "gaming.game-mode",
+    "name": "Game Mode",
+    "category": "Gaming",
+    "description": "Windows gaming feature. Detect support before changing.",
+    "risk": "SAFE",
+    "requiresAdmin": false,
+    "requiresRestart": false
+  }
+]

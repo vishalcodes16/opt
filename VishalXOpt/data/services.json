@@ -1,0 +1,14 @@
+[
+  {
+    "id": "defender",
+    "name": "Security service",
+    "defaultAction": "Keep",
+    "risk": "HIGH RISK"
+  },
+  {
+    "id": "example",
+    "name": "Curated service definition",
+    "defaultAction": "Inspect",
+    "risk": "ADVANCED"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "temp.user",
+    "name": "%TEMP%",
+    "safePreview": true
+  },
+  {
+    "id": "thumbs",
+    "name": "Thumbnail cache",
+    "safePreview": true
+  },
+  {
+    "id": "recycle",
+    "name": "Recycle Bin",
+    "safePreview": true
+  }
+]
