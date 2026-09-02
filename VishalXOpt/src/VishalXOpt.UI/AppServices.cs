@@ -1,5 +1,6 @@
 using VishalXOpt.Core.Interfaces;
 using VishalXOpt.Core.Services;
+using VishalXOpt.Modules.Optimizer;
 namespace VishalXOpt.UI;
 public static class AppServices
 {
@@ -25,6 +26,7 @@ public static class AppServices
     public static FrameTimeService FrameTime { get; } = new FrameTimeService();
     public static SettingsService Settings { get; } = new SettingsService();
     public static WindowsTuningService WindowsTuning { get; } = new WindowsTuningService();
+    public static OptimizerModule Optimizer { get; } = new OptimizerModule(Tweaks);
     private static readonly Lazy<IHardwareMonitorService> _hardware = new(() => new HardwareMonitorService());
     public static IHardwareMonitorService Hardware => _hardware.Value;
 }
