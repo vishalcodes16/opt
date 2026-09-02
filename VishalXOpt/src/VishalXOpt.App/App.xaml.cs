@@ -8,10 +8,14 @@ namespace VishalXOpt.App;
 public partial class App : Application
 {
     private static readonly string LogFile =
-        Path.Combine(AppContext.BaseDirectory, "VishalXOpt-startup.log");
+        Path.Combine(
+            AppContext.BaseDirectory,
+            "VishalXOpt-startup.log");
 
     public App()
     {
+        InitializeComponent();
+
         DispatcherUnhandledException += App_DispatcherUnhandledException;
         AppDomain.CurrentDomain.UnhandledException += App_UnhandledException;
         TaskScheduler.UnobservedTaskException += App_UnobservedTaskException;
@@ -33,6 +37,16 @@ public partial class App : Application
             WriteLog($"64-bit OS: {Environment.Is64BitOperatingSystem}");
             WriteLog($"64-bit Process: {Environment.Is64BitProcess}");
             WriteLog("Startup event completed.");
+
+            if (MainWindow != null)
+            {
+                WriteLog(
+                    $"MainWindow created: {MainWindow.GetType().FullName}");
+            }
+            else
+            {
+                WriteLog("WARNING: MainWindow is still null after startup.");
+            }
         }
         catch (Exception ex)
         {
@@ -42,23 +56,26 @@ public partial class App : Application
 
     private void App_Exit(object sender, ExitEventArgs e)
     {
-        WriteLog($"Application exiting. ExitCode={e.ApplicationExitCode}");
+        WriteLog(
+            $"Application exiting. ExitCode={e.ApplicationExitCode}");
     }
 
     private void App_DispatcherUnhandledException(
         object sender,
         DispatcherUnhandledExceptionEventArgs e)
     {
-        WriteException("Unhandled WPF dispatcher exception", e.Exception);
+        WriteException(
+            "Unhandled WPF dispatcher exception",
+            e.Exception);
 
         try
         {
             MessageBox.Show(
                 "Vishal X Opt encountered an error.\n\n" +
                 e.Exception.Message +
-                "\n\nA detailed log was written to:\n" +
+                "\n\nDetailed log:\n" +
                 LogFile,
-                "Vishal X Opt - Startup Error",
+                "Vishal X Opt - Error",
                 MessageBoxButton.OK,
                 MessageBoxImage.Error);
         }
@@ -75,7 +92,9 @@ public partial class App : Application
     {
         if (e.ExceptionObject is Exception ex)
         {
-            WriteException("Unhandled AppDomain exception", ex);
+            WriteException(
+                "Unhandled AppDomain exception",
+                ex);
         }
         else
         {
@@ -88,7 +107,10 @@ public partial class App : Application
         object? sender,
         UnobservedTaskExceptionEventArgs e)
     {
-        WriteException("Unobserved task exception", e.Exception);
+        WriteException(
+            "Unobserved task exception",
+            e.Exception);
+
         e.SetObserved();
     }
 
@@ -98,7 +120,8 @@ public partial class App : Application
         {
             File.AppendAllText(
                 LogFile,
-                $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}] {message}{Environment.NewLine}");
+                $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}] " +
+                $"{message}{Environment.NewLine}");
         }
         catch
         {

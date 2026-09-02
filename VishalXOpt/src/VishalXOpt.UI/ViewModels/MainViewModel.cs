@@ -1,12 +1,15 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows;
 using VishalXOpt.Core.Models;
 using VishalXOpt.Core.Services;
+using VishalXOpt.Core.Interfaces;
+using System.Diagnostics;
+
 namespace VishalXOpt.UI.ViewModels;
-public partial class MainViewModel:ObservableObject
+
+public partial class MainViewModel : ObservableObject
 {
  [ObservableProperty] private string selectedPage="Home";
  [ObservableProperty] private bool isSidebarCollapsed;

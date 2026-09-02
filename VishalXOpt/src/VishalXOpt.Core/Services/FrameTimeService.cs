@@ -1,15 +1,13 @@
 using System.Diagnostics;
 using System.Globalization;
+using System.Linq;
+using VishalXOpt.Core.Models;
+
 namespace VishalXOpt.Core.Services;
-public sealed record FrameTimeResult(bool Available,string Source,double Fps,double OnePercentLowMs,double AverageFrameTimeMs,string Message);
+
 public sealed class FrameTimeService
 {
-    public string? FindPresentMon(){
-        var candidates=new[]{Path.Combine(AppContext.BaseDirectory,"PresentMon.exe"),Path.Combine(AppContext.BaseDirectory,"tools","PresentMon.exe")};
-        foreach(var c in candidates)if(File.Exists(c))return c;
-        try{var r=new CommandRunner().RunAsync("where.exe",new[]{"PresentMon.exe"},TimeSpan.FromSeconds(5)).GetAwaiter().GetResult();if(r.ExitCode==0){var p=r.StdOut.Split(new[]{'\r','\n'},StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();if(!string.IsNullOrWhiteSpace(p)&&File.Exists(p))return p;}}catch{}
-        return null;
-    }
+    public string? FindPresentMon() => null;
     public async Task<FrameTimeResult> CaptureAsync(string processName,int seconds=10,CancellationToken token=default){
         if (string.IsNullOrWhiteSpace(processName) || processName.IndexOfAny(['\r', '\n', '"']) >= 0)
             return new(false,"PresentMon",0,0,0,"Enter a valid game process name.");
