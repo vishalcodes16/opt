@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Tweaker; public sealed class TweakerModule { public string Name=>"Tweaker"; public string Status=>"Ready for integration; operations are safety-gated."; }

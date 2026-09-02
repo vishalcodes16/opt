@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Interrupts; public sealed class InterruptsModule { public string Name=>"Interrupts"; public string Status=>"Scaffolded for safety-first integration"; }

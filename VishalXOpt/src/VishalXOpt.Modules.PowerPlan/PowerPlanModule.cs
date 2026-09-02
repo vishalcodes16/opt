@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.PowerPlan; public sealed class PowerPlanModule { public string Name=>"PowerPlan"; public string Status=>"Scaffolded for safety-first integration"; }

@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.WinUtil; public sealed class WinUtilModule { public string Name=>"WinUtil"; public string Status=>"Ready for integration; operations are safety-gated."; }

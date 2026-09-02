@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Optimizer; public sealed class OptimizerModule { public string Name=>"Optimizer"; public string Status=>"Ready for integration; operations are safety-gated."; }

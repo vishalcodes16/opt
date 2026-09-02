@@ -1,0 +1,1 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="VishalXOpt.UI.Views.GamingView"><Border Padding="24" Background="#121A33" CornerRadius="20"><TextBlock Text="Gaming module view" FontSize="26"/></Border></UserControl>

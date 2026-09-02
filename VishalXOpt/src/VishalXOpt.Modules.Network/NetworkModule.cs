@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Network; public sealed class NetworkModule { public string Name=>"Network"; public string Status=>"Scaffolded for safety-first integration"; }

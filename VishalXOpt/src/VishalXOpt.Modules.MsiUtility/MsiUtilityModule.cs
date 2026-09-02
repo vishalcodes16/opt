@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.MsiUtility; public sealed class MsiUtilityModule { public string Name=>"MsiUtility"; public string Status=>"Scaffolded for safety-first integration"; }

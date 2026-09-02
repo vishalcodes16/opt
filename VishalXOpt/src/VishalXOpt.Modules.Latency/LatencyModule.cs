@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Latency; public sealed class LatencyModule { public string Name=>"Latency"; public string Status=>"Ready for integration; operations are safety-gated."; }

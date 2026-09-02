@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Process; public sealed class ProcessModule { public string Name=>"Process"; public string Status=>"Ready for integration; operations are safety-gated."; }

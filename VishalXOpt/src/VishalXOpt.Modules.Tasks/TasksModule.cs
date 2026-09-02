@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Tasks; public sealed class TasksModule { public string Name=>"Tasks"; public string Status=>"Scaffolded for safety-first integration"; }

@@ -1,0 +1,1 @@
+using System.Windows.Controls; namespace VishalXOpt.UI.Views; public partial class PowerManagementView:UserControl{ public PowerManagementView(){InitializeComponent();} }

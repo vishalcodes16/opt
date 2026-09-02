@@ -1,0 +1,1 @@
+namespace VishalXOpt.Modules.Privacy; public sealed class PrivacyModule { public string Name=>"Privacy"; public string Status=>"Scaffolded for safety-first integration"; }

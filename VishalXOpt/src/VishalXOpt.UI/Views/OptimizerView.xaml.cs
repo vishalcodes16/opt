@@ -1,0 +1,1 @@
+using System.Windows.Controls; namespace VishalXOpt.UI.Views; public partial class OptimizerView:UserControl{ public OptimizerView(){InitializeComponent();} }

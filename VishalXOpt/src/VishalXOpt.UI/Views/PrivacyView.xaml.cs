@@ -1,0 +1,1 @@
+using System.Windows.Controls; namespace VishalXOpt.UI.Views; public partial class PrivacyView:UserControl{ public PrivacyView(){InitializeComponent();} }
