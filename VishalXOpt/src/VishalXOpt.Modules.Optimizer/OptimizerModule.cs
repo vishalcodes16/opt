@@ -30,7 +30,12 @@ public sealed record OptimizerApplyResult(
     IReadOnlyList<string> Messages,
     bool RestartRequired)
 {
-    public bool Success => Applied > 0 && Skipped == 0;
+    /// <summary>
+    /// A no-op profile is successful because it intentionally leaves the
+    /// system unchanged. Profiles with requested operations succeed only when
+    /// every operation was applied and verified.
+    /// </summary>
+    public bool Success => Skipped == 0;
 }
 
 /// <summary>

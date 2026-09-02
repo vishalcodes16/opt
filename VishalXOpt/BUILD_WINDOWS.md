@@ -1,4 +1,4 @@
-# Build on Windows
+# Windows Build Instructions
 
 1. Install Visual Studio 2022 with Desktop development with .NET or the .NET 8 SDK.
 2. Open `VishalXOpt.sln`.

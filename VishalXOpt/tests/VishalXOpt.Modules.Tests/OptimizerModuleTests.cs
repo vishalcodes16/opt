@@ -41,6 +41,7 @@ public sealed class OptimizerModuleTests
 
         Assert.Equal(0, result.Applied);
         Assert.Equal(0, result.Skipped);
+        Assert.True(result.Success);
         Assert.Contains("no system settings were changed", result.Messages.Single(), StringComparison.OrdinalIgnoreCase);
     }
 
