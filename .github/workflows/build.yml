@@ -2,9 +2,11 @@ name: Build Vishal X Opt
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -15,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup .NET 8
+      - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
@@ -27,11 +29,12 @@ jobs:
         run: dotnet build VishalXOpt/VishalXOpt.sln -c Release --no-restore
 
       - name: Test
-        run: dotnet test VishalXOpt/VishalXOpt.sln -c Release --no-build --no-restore
+        run: dotnet test VishalXOpt/VishalXOpt.sln -c Release --no-build
 
       - name: Publish Windows x64
-        run: >-
-          dotnet publish VishalXOpt/src/VishalXOpt.App/VishalXOpt.App.csproj
+        run: >
+          dotnet publish
+          VishalXOpt/src/VishalXOpt.App/VishalXOpt.App.csproj
           -c Release
           -r win-x64
           --self-contained true
@@ -40,8 +43,9 @@ jobs:
           /p:PublishTrimmed=false
           -o publish
 
-      - name: Upload EXE
+      - name: Upload EXE Artifact
         uses: actions/upload-artifact@v4
         with:
           name: VishalXOpt-Windows-x64
           path: publish/
+          if-no-files-found: error
